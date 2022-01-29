@@ -1,0 +1,14 @@
+main: Azazel\Fly\Main
+name: AzazelFly
+author: Azazel_
+version: 0.0.1
+api: 4.0.0
+
+commands:
+  fly:
+    permission: "fly.command"
+    description: "§7De-/Aktiviert den Flugmodus für dich oder eine ander Person."
+
+permissions:
+  fly.command:
+    default: op
