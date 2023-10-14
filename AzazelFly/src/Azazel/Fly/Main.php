@@ -41,7 +41,7 @@ class FlyCommand extends PluginBase implements Listener {
                         $sender->sendMessage("§bServer §8»§c Dieser Befehl funktioniert nur im Überlebensmodus.");
                     }
                 } else {
-                    $sender->sendMessage("§bServer §8»§c Du hast nicht die benötigten Rechte! (fly.perms)");
+                    $sender->sendMessage("§bServer §8»§c Du hast nicht die benötigten Rechte! (fly.command)");
                 }
             } else {
                 $sender->sendMessage(TextFormat::RED . "AzazelFly » Dieser Befehl kann nur im Spiel verwendet werden.");
