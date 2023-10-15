@@ -2,7 +2,7 @@ main: Azazel\Fly\Main
 name: AzazelFly
 author: Azazel_
 version: 0.0.1
-api: 4.0.0
+api: [5.0.0]
 
 commands:
   fly:
